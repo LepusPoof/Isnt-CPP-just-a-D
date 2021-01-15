@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1610587239 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-an-e\functions, scopes and headers\functions, scopes and headers\main.cpp
+	<iostream>
+	"functions.hpp"
+
+1610587306 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-an-e\functions, scopes and headers\functions, scopes and headers\functions.cpp
+	<iostream>
+
+1610587150 d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-an-e\functions, scopes and headers\functions, scopes and headers\functions.hpp
+
