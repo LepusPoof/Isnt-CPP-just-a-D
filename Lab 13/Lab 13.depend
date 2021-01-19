@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611043731 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-an-e\lab 13\main.cpp
+	<iostream>
+	<stdio.h>
+	<fstream>
+
