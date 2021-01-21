@@ -1,26 +1,28 @@
+//FACTORIAL WITH LONG INT
 #include <iostream>
 
 using namespace std;
 
-int i, num;
 
-long int silnia();
 
-silnia(int num){
-    if (num>=1){
-        return num*silnia(num-1);
-} else {
-    return 1;
-}
-   // num = (num-1) * num;
-   // cout << "Silnia Twojej liczby to " << num;
-}
+long int factorial(int num){
+
+    int fact = 1;
+    for(int i = 1; i <= num; i++){
+        fact *= i;
+    }
+    cout << "The factorial is " << fact << endl;
+    return num;
+
+    }
+
 
 int main()
 {
-    cout << "Podaj numer: ";
+    int num;
+    cout << "Pick a number - I will give you its factorial: ";
     cin >> num;
-    silnia(num);
+    factorial(num);
 
 
     return 0;

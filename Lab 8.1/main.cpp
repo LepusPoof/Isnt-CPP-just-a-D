@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
  int x;
- int *wsk;
+ int *ptr;
 
  cout << x << endl;
  cout << &x << "\n";
 
- wsk = &x;
+ ptr = &x;
 
- cout << wsk << "\n";
- cout << &wsk << "\n";
+ cout << ptr << "\n";
+ cout << &ptr << "\n";
 }

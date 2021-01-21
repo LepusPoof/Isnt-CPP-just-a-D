@@ -1,3 +1,4 @@
+//GUESSING THE LETTER
 #include <iostream>
 
 using namespace std;
@@ -9,20 +10,20 @@ int main()
 
     letter = 'f';
 
-    cout << "Sprobuj zgadnac litere: ";
+    cout << "Try to guess the letter: ";
     cin >> userLetter;
 
-    for (i=1; userLetter != letter; i++) {
+    for (i = 1 ; userLetter != letter; i++) {
         if (userLetter < letter) {
-        cout << "Twoja litera jest blizej litery A niz moja. Podaj kolejna litere: ";
+        cout << "Your letter is closer to A than mine. Guess again: ";
         cin >> userLetter;
         }  else if (userLetter > letter) {
-        cout << "Twoja litera jest blizej litery Z niz moja. Podaj kolejna litere: ";
+        cout << "Your letter is closer to Z than mine. Guess again: ";
         cin >> userLetter;
         }
 
     }
-    cout << "Gratulacje, litera to " << letter << "! Trafiles po " << i << " probach!";
+    cout << "Congrats, the letter is " << letter << "! You got it after " << i << " tries!" << endl;
 }
 
 

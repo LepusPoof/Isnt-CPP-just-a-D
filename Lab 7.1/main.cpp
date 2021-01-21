@@ -1,3 +1,4 @@
+//CALCULATING AREAS
 #include <iostream>
 
 using namespace std;
@@ -5,63 +6,63 @@ using namespace std;
 int num, a, b;
 float x, y, h, r;
 
-void kwadrat(int a){
-    cout << "Podaj dlugosc boku a: ";
+void square(int a){
+    cout << "Length of side a: ";
     cin >> a;
-    cout << "Pole kwadratu: " << a*a << endl;
+    cout << "Area of the square: " << a*a << endl;
 }
-void prostokat(int a, int b){
-    cout << "Podaj dlugosc boku a: ";
+void rectangle(int a, int b){
+    cout << "Length of side a: ";
     cin >> a;
-    cout << "Podaj dlugosc boku b: ";
+    cout << "Length of side b: ";
     cin >> b;
-    cout << "Pole prostokata: " << a*b << endl;
+    cout << "Area of the rectangle: " << a*b << endl;
 }
-void trojkat(float x, float h){
-    cout << "Podaj dlugosc boku a: ";
+void triangle(float x, float h){
+    cout << "Length of side a: ";
     cin >> x;
-    cout << "Podaj dlugosc wysokosci h: ";
+    cout << "Height h: ";
     cin >> h;
-    cout << "Pole trojkata: " << x*h/2 << endl;
+    cout << "Area of the triangle: " << x*h/2 << endl;
 }
-void kolo(float r){
-    cout << "Podaj dlugosc promienia r: ";
+void circle(float r){
+    cout << "Radius r: ";
     cin >> r;
-    cout << "Pole kola: " << 3.14*r*r << endl;
+    cout << "Area of the circle: " << 3.14*r*r << endl;
 }
-void trapez(float x, float y, float h){
-    cout << "Podaj dlugosc boku a: ";
+void trapeze(float x, float y, float h){
+    cout << "Length of side a: ";
     cin >> x;
-    cout << "Podaj dlugosc boku b: ";
+    cout << "Length of side b: ";
     cin >> y;
-    cout << "Podaj dlugosc wysokosci h: ";
+    cout << "Height h: ";
     cin >> h;
-    cout << "Pole trapezu: " << (x+y)*h/2 << endl;
+    cout << "Area of the trapeze: " << (x+y)*h/2 << endl;
 }
 
 int main()
 {
-    cout << "Podaj, ktora figure chcesz obliczyc:\n1. kwadrat\n2. prostokat\n3. trojkat\n4. kolo\n5. trapez: ";
+    cout << "Which geometric figure do you want to calculate?\n1. square\n2. rectangle\n3. triangle\n4. circle\n5. trapeze: ";
     cin >> num;
     cout << "\n";
     switch(num) {
         case 1:
-            kwadrat(a);
+            square(a);
             break;
         case 2:
-            prostokat(a, b);
+            rectangle(a, b);
             break;
         case 3:
-            trojkat(x, h);
+            triangle(x, h);
             break;
         case 4:
-            kolo(r);
+            circle(r);
             break;
         case 5:
-            trapez(x, y, h);
+            trapeze(x, y, h);
             break;
         default:
-            cout << "Zly numer.";
+            cout << "Wrong number.";
             break;
     }
     return 0;

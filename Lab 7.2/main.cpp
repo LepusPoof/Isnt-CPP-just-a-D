@@ -1,3 +1,5 @@
+//GEOMETRIC FIGURES - PERIMETERS
+
 #include <iostream>
 #include <Math.h>
 
@@ -6,56 +8,56 @@ using namespace std;
 int num, a, b;
 float x, y, h, r;
 
-int kwadrat();
-int prostokat();
-float trojkatRownoboczny();
-float kolo();
+int square();
+int rectangle();
+float EquilTriangle();
+float circle();
 
-int kwadrat(int a){
-    cout << "Podaj dlugosc boku a: ";
+int square(int a){
+    cout << "Length of side a: ";
     cin >> a;
-    cout << "Obwod kwadratu: " << 4*a << endl;
+    cout << "Perimeter of the square: " << 4*a << endl;
 }
-int prostokat(int a, int b){
-    cout << "Podaj dlugosc boku a: ";
+int rectangle(int a, int b){
+    cout << "Length of side a: ";
     cin >> a;
-    cout << "Podaj dlugosc boku b: ";
+    cout << "Length of side b: ";
     cin >> b;
-    cout << "Obwod prostokata: " << 2*a+2*b << endl;
+    cout << "Perimeter of the rectangle: " << 2*a+2*b << endl;
 }
-float trojkatRownoboczny(float x, float h){
-    cout << "Podaj dlugosc boku a: ";
+float EquilTriangle(float x, float h){
+    cout << "Length of side a: ";
     cin >> x;
-    cout << "Podaj dlugosc wysokosci h: ";
+    cout << "Height h: ";
     cin >> h;
-    cout << "Obwod trojkata: " << x+h+sqrt(x*x+h*h) << endl;
+    cout << "Perimeter of the equilateral triangle: " << x+h+sqrt(x*x+h*h) << endl;
 }
-float kolo(float r){
-    cout << "Podaj dlugosc promienia r: ";
+float circle(float r){
+    cout << "Radius r: ";
     cin >> r;
-    cout << "Obwod kola: " << 2*M_PI*r << endl;
+    cout << "Circumference of the circle: " << 2*M_PI*r << endl;
 }
 
 int main()
 {
-    cout << "Podaj, ktorej figury obwod chcesz obliczyc:\n1. kwadrat,\n2. prostokat,\n3. trojkat rownoboczny,\n4. kolo: ";
+    cout << "Perimeter of which geometric figure do you want to calculate?\n1. square,\n2. rectangle,\n3. equilateral triangle,\n4. circle: ";
     cin >> num;
     cout << "\n";
     switch(num) {
         case 1:
-            kwadrat(a);
+            square(a);
             break;
         case 2:
-            prostokat(a, b);
+            rectangle(a, b);
             break;
         case 3:
-            trojkatRownoboczny(x, h);
+            EquilTriangle(x, h);
             break;
         case 4:
-            kolo(r);
+            circle(r);
             break;
         default:
-            cout << "Zly numer.";
+            cout << "Wrong number.";
             break;
     }
     return 0;
