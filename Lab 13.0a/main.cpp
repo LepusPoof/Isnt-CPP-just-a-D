@@ -15,18 +15,12 @@ int main()
     cout << "Name of the file: ";
     cin >> file_name;
 
-    file.open(file_name);
 
-    if (!file.good()){
-        cout << "The file doesn't exist";
-        return false;
+    if(remove(file_name) != 0){
+        perror("Error deleting file.");
+    } else {
+        puts("File successfully deleted!");
     }
 
-    file.rewind();
-
-    char *fputs(char *"POCZATEK", FILE* stream);
-
-
-    file.close();
     return 0;
 }

@@ -20,7 +20,7 @@ int main()
     }
     //file_read >> items;
 
-    int remove(const char *file_name);
+    //int remove(const char *file_name);
 
     file << "POCZATEK " << items << " KONIEC";
 
