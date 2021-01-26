@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n, m, i, j, x, y, z;
+    int n, m, i, j;
 
     cout << "Number of verses: ";
     cin >> m;
@@ -50,11 +50,15 @@ int main()
             WYNIK[i][j] = A[i][j] + B[i][j];
         }
     }
-    cout << "Wynik: " << endl;
+    cout << "The result: " << endl;
     for (i = 0; i < m; i++){
         for (j = 0; j < n; j++){
             cout << WYNIK[i][j] << " ";
         }
         cout << "\n";
     }
+
+    delete [] A;
+    delete [] B;
+    delete [] WYNIK;
 }
