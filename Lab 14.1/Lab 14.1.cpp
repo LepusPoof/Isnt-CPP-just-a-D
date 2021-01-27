@@ -33,7 +33,7 @@ int main()
     double delta;
 
 
-    cout << a << tab[0] << b << tab[1] << c << tab[2] << endl;
+    //cout << a << tab[0] << b << tab[1] << c << tab[2] << endl;
 
     delta = b*b - 4*a*c;
 

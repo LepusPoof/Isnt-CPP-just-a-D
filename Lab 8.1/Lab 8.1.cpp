@@ -10,8 +10,8 @@ int main()
  cout << x << endl;
  cout << &x << "\n";
 
- ptr = &x;
+ *ptr = &x;
 
+ cout << *ptr << "\n";
  cout << ptr << "\n";
- cout << &ptr << "\n";
 }

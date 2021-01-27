@@ -8,14 +8,14 @@ using namespace std;
 
 int main()
 {
-    fstream file;
+    ofstream file;
     string file_name = "liczby.txt";
     file.open(file_name);
 
 
     if (!file.good()){
         cout << "The file doesn't exist";
-        return false;
+        return -1;
     }
 
     int min;
