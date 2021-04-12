@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618187838 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\ascii pic\ascii picture\main.cpp
+	<iostream>
+	<Magick++.h>
+
