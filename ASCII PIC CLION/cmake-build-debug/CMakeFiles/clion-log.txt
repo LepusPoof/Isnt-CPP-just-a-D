@@ -1,0 +1,4 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Dysk Google\NAUKA\KODOWANIE\.GitHub Repositories\Isnt-CPP-just-a-D\ASCII PIC CLION"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/ASCII PIC CLION/cmake-build-debug

@@ -1,0 +1,3 @@
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/ASCII PIC CLION/cmake-build-debug/CMakeFiles/ASCII_PIC_CLION.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/ASCII PIC CLION/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/ASCII PIC CLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir

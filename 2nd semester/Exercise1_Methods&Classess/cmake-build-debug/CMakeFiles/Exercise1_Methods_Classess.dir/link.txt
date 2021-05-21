@@ -1,0 +1,3 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Exercise1_Methods_Classess.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Exercise1_Methods_Classess.dir/objects.a @CMakeFiles\Exercise1_Methods_Classess.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Exercise1_Methods_Classess.dir/objects.a -Wl,--no-whole-archive -o Exercise1_Methods_Classess.exe -Wl,--out-implib,libExercise1_Methods_Classess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Exercise1_Methods_Classess.dir\linklibs.rsp

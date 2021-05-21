@@ -1,0 +1,3 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ASCII_PIC_CLION.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\ASCII_PIC_CLION.dir/objects.a @CMakeFiles\ASCII_PIC_CLION.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ASCII_PIC_CLION.dir/objects.a -Wl,--no-whole-archive -o ASCII_PIC_CLION.exe -Wl,--out-implib,libASCII_PIC_CLION.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ASCII_PIC_CLION.dir\linklibs.rsp
