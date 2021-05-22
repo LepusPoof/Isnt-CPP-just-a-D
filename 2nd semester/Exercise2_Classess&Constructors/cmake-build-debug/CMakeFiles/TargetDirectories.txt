@@ -1,0 +1,3 @@
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise2_Classess&Constructors/cmake-build-debug/CMakeFiles/Exercise2_Classess_Constructors.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise2_Classess&Constructors/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise2_Classess&Constructors/cmake-build-debug/CMakeFiles/rebuild_cache.dir
