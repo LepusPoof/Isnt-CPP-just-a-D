@@ -1,0 +1,3 @@
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise4_FriendClass&Function/cmake-build-debug/CMakeFiles/Exercise4_FriendClass_Function.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise4_FriendClass&Function/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise4_FriendClass&Function/cmake-build-debug/CMakeFiles/rebuild_cache.dir
