@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Class Addition {
+class Addition {
         public:
         int result;
         void add (int a, int b) {
@@ -10,7 +10,7 @@ Class Addition {
         }
 };
 // analogicznie klasa Odejmowanie, Mnozenie, Dzielenie czyli:
-Class Substraction {
+class Substraction {
         public:
         int result;
         void substract (int a, int b) {
@@ -18,7 +18,7 @@ Class Substraction {
         }
 };
 
-Class Multiplication {
+class Multiplication {
         public:
         int result;
         void multiply (int a, int b) {
@@ -26,18 +26,15 @@ Class Multiplication {
         }
 };
 
-Class Division {
+class Division {
         public:
-        int result;
+        float result;
         void divide (int a, int b) {
             result = a / b;
         }
 };
 
-//Stwórz następującą klasę:
-Class Dzialanie : public Dodawanie, public Odejmowanie, public Dzielenie, public Mnozenie
-
-class Operation {
+class Operation : public Addition, public Substraction, public Multiplication, public Division {
 public:
     Operation(){
         a = 0;
@@ -52,18 +49,28 @@ public:
         cout << "Give me the second value: " << endl;
         cin >> b;
     }
-    void obliczDzialania() {
-        //wywołuje metody dodaj, odejmij …
-        //argumentami do metod dodaj, odejmij, pomnoz oraz podziel powinny być zmienne a i b
-        Operation.substract();
+    void doTheMaths() {
+        Operation::Addition();
+        Operation::Substraction();
+        Operation::Multiplication();
+        Operation::Division();
     }
     void print() {
-        //wypisuje wartości zmiennych wynik odziedziczonych z wszystkich
-        czterech
-        klas
+
+        Operation x;
+
+        cout << Addition().result << endl;
+        cout << Substraction().result << endl;
+        cout << Multiplication().result << endl;
+        cout << Division().result << endl;
     }
 };
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Operation x1;
+    x1.loadData();
+    x1.doTheMaths();
+    x1.print();
+
     return 0;
 }

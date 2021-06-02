@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise5_Fraction/main.cpp
+iostream
+-
+

@@ -1,0 +1,3 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Zad6_Inheritance.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Zad6_Inheritance.dir/objects.a @CMakeFiles\Zad6_Inheritance.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Zad6_Inheritance.dir/objects.a -Wl,--no-whole-archive -o Zad6_Inheritance.exe -Wl,--out-implib,libZad6_Inheritance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Zad6_Inheritance.dir\linklibs.rsp

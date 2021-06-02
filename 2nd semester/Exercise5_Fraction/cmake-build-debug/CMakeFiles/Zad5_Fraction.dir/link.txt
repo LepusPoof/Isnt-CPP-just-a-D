@@ -1,0 +1,3 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Zad5_Fraction.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Zad5_Fraction.dir/objects.a @CMakeFiles\Zad5_Fraction.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Zad5_Fraction.dir/objects.a -Wl,--no-whole-archive -o Zad5_Fraction.exe -Wl,--out-implib,libZad5_Fraction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Zad5_Fraction.dir\linklibs.rsp
