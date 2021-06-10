@@ -9,7 +9,7 @@ class Addition {
             result = a + b;
         }
 };
-// analogicznie klasa Odejmowanie, Mnozenie, Dzielenie czyli:
+
 class Substraction {
         public:
         int result;
@@ -50,19 +50,29 @@ public:
         cin >> b;
     }
     void doTheMaths() {
-        Operation::Addition();
-        Operation::Substraction();
-        Operation::Multiplication();
-        Operation::Division();
+        Addition temp1;
+        temp1.add(a,b);
+        Addition::result=temp1.result;
+
+        Substraction temp2;
+        temp2.substract(a,b);
+        Substraction::result=temp2.result;
+
+        Multiplication temp3;
+        temp3.multiply(a,b);
+        Multiplication::result = temp3.result;
+
+        Division temp4;
+        temp4.divide(a,b);
+        Division::result = temp4.result;
+
     }
     void print() {
 
-        Operation x;
-
-        cout << Addition().result << endl;
-        cout << Substraction().result << endl;
-        cout << Multiplication().result << endl;
-        cout << Division().result << endl;
+        cout << Addition::result << endl;
+        cout << Substraction::result << endl;
+        cout << Multiplication::result << endl;
+        cout << Division::result << endl;
     }
 };
 
