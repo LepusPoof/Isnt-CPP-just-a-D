@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623624012 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_ascii-image_codeblocks\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+

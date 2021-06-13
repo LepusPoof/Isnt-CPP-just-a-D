@@ -165,6 +165,21 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Exercise_ASCII_Image
 
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=0.1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
 
@@ -266,6 +281,18 @@ Project_BINARY_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Is
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image
 
+//Value Computed by CMake
+SFMLBoilerplate_BINARY_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug
+
+//Value Computed by CMake
+SFMLBoilerplate_SOURCE_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image
+
+//Value Computed by CMake
+SFMLTest_BINARY_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug
+
+//Value Computed by CMake
+SFMLTest_SOURCE_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image
+
 //Path to a library.
 SFML_AUDIO_LIBRARY_DEBUG:FILEPATH=SFML_AUDIO_LIBRARY_DEBUG-NOTFOUND
 
@@ -307,6 +334,12 @@ SFML_WINDOW_LIBRARY_DEBUG:FILEPATH=SFML_WINDOW_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
 SFML_WINDOW_LIBRARY_RELEASE:FILEPATH=SFML_WINDOW_LIBRARY_RELEASE-NOTFOUND
+
+//Value Computed by CMake
+myproject_BINARY_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug
+
+//Value Computed by CMake
+myproject_SOURCE_DIR:STATIC=D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image
 
 
 ########################
