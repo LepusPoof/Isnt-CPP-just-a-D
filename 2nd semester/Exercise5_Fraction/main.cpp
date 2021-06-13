@@ -36,13 +36,23 @@ public:
      */
 
     Fraction operator +(const Fraction &x){
-        Fraction retFr = Fraction(this->denominator + x.denominator, this->counter + x.counter); // check this if it works
-       // return Fraction(this->denominator + x.denominator, this->counter + x.counter);
+        Fraction retFr;
+        if(this->denominator == x.denominator){
+        retFr = Fraction(this->denominator + x.denominator, this->counter + x.counter);
         return retFr;
+        } else {
+            cout << "That doesn't work that way." << endl;
+        }// check this if it works
+       // return Fraction(this->denominator + x.denominator, this->counter + x.counter);
+
     }
 
     Fraction operator -(const Fraction &x){
         Fraction retFr = Fraction(this->denominator - x.denominator, this->counter - x.counter);
+        if(this->denominator - x.denominator == 0 && this->counter - x.counter == 0){
+            retFr.denominator = 0;
+            retFr.counter = 0;
+        }
         return retFr;
     };
 
@@ -52,10 +62,8 @@ public:
         return * this;
     };
 
-    Fraction operator *(const float &x){
-        Fraction retFr;
-        retFr.denominator = this->denominator * x;
-        retFr.counter = this->counter * x;
+    Fraction operator *(const Fraction &x){
+        Fraction retFr = Fraction(this->denominator * x.denominator, this->counter * x.counter);
         return retFr;
     };
 
@@ -66,10 +74,8 @@ public:
         return * this;
     };
 
-    Fraction operator /(const float &x){
-        Fraction retFr;
-        retFr.denominator = this->denominator / x;
-        retFr.counter = this->counter / x;
+    Fraction operator /(const Fraction &x){
+        Fraction retFr = Fraction(this->denominator / x.denominator, this->counter / x.counter);
         return retFr;
     };
 
@@ -105,10 +111,10 @@ int main() {
     Fraction diffFr = x1 - x2;
     cout << "difference of your fractions: " << diffFr.result() << endl;
 
-    Fraction multFr = x1 * 2;
+    Fraction multFr = x1 * x2;
     cout << "multiplication of your fractions: " << multFr.result() << endl;
 
-    Fraction divFr = x1 / 3;
+    Fraction divFr = x1 / x2;
     cout << "division of your fractions: " << divFr.result() << endl;
 
     sumFr += x2;
