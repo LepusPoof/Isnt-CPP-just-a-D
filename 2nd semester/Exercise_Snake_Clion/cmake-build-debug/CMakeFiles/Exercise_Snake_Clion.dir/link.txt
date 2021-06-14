@@ -1,0 +1,3 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Exercise_Snake_Clion.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Exercise_Snake_Clion.dir/objects.a @CMakeFiles\Exercise_Snake_Clion.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Exercise_Snake_Clion.dir/objects.a -Wl,--no-whole-archive -o Exercise_Snake_Clion.exe -Wl,--out-implib,libExercise_Snake_Clion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Exercise_Snake_Clion.dir\linklibs.rsp

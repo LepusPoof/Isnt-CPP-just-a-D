@@ -1,10 +1,21 @@
 "D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Dysk Google\NAUKA\KODOWANIE\.GitHub Repositories\Isnt-CPP-just-a-D\2nd semester\Exercise_ASCII-Image"
-CMake Error at CMakeLists.txt:24:
-  Parse error.  Expected "(", got newline with text "
+CMake Warning at CMakeLists.txt:9 (find_package):
+  By not providing "FindSFML.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "SFML", but
+  CMake did not find one.
 
-  ".
+  Could not find a package configuration file provided by "SFML" (requested
+  version 2) with any of the following names:
+
+    SFMLConfig.cmake
+    sfml-config.cmake
+
+  Add the installation prefix of "SFML" to CMAKE_PREFIX_PATH or set
+  "SFML_DIR" to a directory containing one of the above files.  If "SFML"
+  provides a separate development package or SDK, be sure it has been
+  installed.
 
 
--- Configuring incomplete, errors occurred!
-See also "D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_ASCII-Image/cmake-build-debug

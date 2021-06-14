@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Exercise_ASCII_Image main.cpp)
 link_directories("c:/SFML")
-include_directories(headers /usr/include c:/SFML/include)
+include_directories(headers c:/SFML/include)
 find_package(SFML 2 COMPONENTS system window graphics network audio)
 
 

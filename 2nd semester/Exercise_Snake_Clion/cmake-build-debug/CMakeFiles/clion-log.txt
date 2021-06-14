@@ -1,0 +1,11 @@
+"D:\Programy\Jetbrain Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Dysk Google\NAUKA\KODOWANIE\.GitHub Repositories\Isnt-CPP-just-a-D\2nd semester\Exercise_Snake_Clion"
+CMake Error at cmake_modules/FindSFML.cmake:359 (message):
+  Could NOT find SFML (missing: SFML_SYSTEM_LIBRARY SFML_WINDOW_LIBRARY
+  SFML_GRAPHICS_LIBRARY)
+Call Stack (most recent call first):
+  CMakeLists.txt:11 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_Snake_Clion/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/Dysk Google/NAUKA/KODOWANIE/.GitHub Repositories/Isnt-CPP-just-a-D/2nd semester/Exercise_Snake_Clion/cmake-build-debug/CMakeFiles/CMakeError.log".
