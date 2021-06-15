@@ -44,7 +44,7 @@ class Engine
 
 
         int speed;
-        int timeSinceLastMove;
+        Time timeSinceLastMove;
 
 
 

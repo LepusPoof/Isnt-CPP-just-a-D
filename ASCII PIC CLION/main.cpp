@@ -1,15 +1,3 @@
-// This may look like C code, but it is really -*- C++ -*-
-//
-// Copyright Bob Friesenhahn, 1999, 2000, 2001, 2002, 2003
-//
-// Simple demo program for Magick++
-//
-// Concept and algorithms lifted from PerlMagick demo script written
-// by John Christy.
-//
-// Max run-time size 60MB (as compared with 95MB for PerlMagick) under SPARC Solaris
-//
-
 #include <Magick++.h>
 #include <string>
 #include <iostream>

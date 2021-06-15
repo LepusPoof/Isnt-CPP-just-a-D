@@ -31,14 +31,14 @@ void Engine::input(){
 
         }
     }
+}
 
-    void Engine::addDirection(int newDirection){
+void Engine::addDirection(int newDirection){
         if(directionQueue.empty()){
-            directionQueue.emplace_back(NewDirection);
+            directionQueue.emplace_back(newDirection);
         } else {
-            if(direction.back()!= newDirection){
+            if(directionQueue.back()!= newDirection){
                 directionQueue.emplace_back(newDirection);
             }
         }
     }
-}

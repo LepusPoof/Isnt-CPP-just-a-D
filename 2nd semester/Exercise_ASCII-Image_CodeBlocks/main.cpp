@@ -9,7 +9,7 @@ void printAsciiCharacter(int intensity);
 int main(){
     //loading image to read pixel values
     Image i;
-    if(i.loadFromFile("image1.jpg")) {
+    if(i.loadFromFile("image.jpg")) {
         cout << "Your image is fully loaded.";
     } else {
         cout << "Well, I couldn't load an image.";

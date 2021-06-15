@@ -34,9 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="assets/Engine.cpp" />
 		<Unit filename="headers/Engine.hpp" />
+		<Unit filename="headers/SnakeSection.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/SnakeSection.cpp" />
+		<Unit filename="src/draw.cpp" />
+		<Unit filename="src/input.cpp" />
+		<Unit filename="src/update.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

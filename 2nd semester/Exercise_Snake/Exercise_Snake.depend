@@ -2,7 +2,7 @@
 1623643118 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\assets\engine.cpp
 	"Engine.hpp"
 
-1623647934 d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\headers\engine.hpp
+1623648249 d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\headers\engine.hpp
 	"SnakeSection.hpp"
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/RectangleShape.hpp>
@@ -16,15 +16,18 @@
 1623645573 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\draw.cpp
 	"Engine.hpp"
 
-1623645683 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\engine.cpp
+1623646864 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\engine.cpp
 	"Engine.hpp"
 
 1623644906 d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\headers\snakesection.hpp
 	<SFML/Graphics.hpp>
 
-1623644817 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\input.cpp
+1623648668 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\input.cpp
 	"Engine.hpp"
 
-1623645737 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\snakesection.cpp
+1623648983 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\snakesection.cpp
 	"SnakeSection.hpp"
+
+1623648785 source:d:\dysk google\nauka\kodowanie\.github repositories\isnt-cpp-just-a-d\2nd semester\exercise_snake\src\update.cpp
+	"Engine.hpp"
 

@@ -39,22 +39,23 @@ void Engine::update(){
         //Snake's head
         switch (snakeDirection){
             case Direction::RIGHT:
-            snake[0].setPosition(Vector2f(thisSectionPosition.x + 20, thisSectionPosition.y))
+            snake[0].setPosition(Vector2f(thisSectionPosition.x + 20, thisSectionPosition.y));
             break;
             case Direction::LEFT:
-            snake[0].setPosition(Vector2f(thisSectionPosition.x, thisSectionPosition.y + 20))
+            snake[0].setPosition(Vector2f(thisSectionPosition.x, thisSectionPosition.y + 20));
             break;
             case Direction::UP:
-            snake[0].setPosition(Vector2f(thisSectionPosition.x, thisSectionPosition.y - 20))
+            snake[0].setPosition(Vector2f(thisSectionPosition.x, thisSectionPosition.y - 20));
             break;
             case Direction::DOWN:
-            snake[0].setPosition(Vector2f(thisSectionPosition.x - 20, thisSectionPosition.y))
+            snake[0].setPosition(Vector2f(thisSectionPosition.x - 20, thisSectionPosition.y));
             break;
         }
 
         //Snake's tail
         for(int i = 1; i < snake.size(); i++){
             thisSectionPosition = snake[i].getPosition();
+            snake[i].setPosition(lastSectionPosition);
             lastSectionPosition = thisSectionPosition;
         }
 
